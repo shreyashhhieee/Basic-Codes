@@ -1,0 +1,9 @@
+class Solution:
+    def binarysearch(self, arr, k):
+    
+        if k in arr:
+            n=arr.index(k)
+        else:
+            n=-1
+        return n
+        
